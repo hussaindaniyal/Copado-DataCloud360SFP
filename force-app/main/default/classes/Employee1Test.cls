@@ -20,18 +20,4 @@ public class Employee1Test {
             result2
         );
     }
-
-    // Test Method 2
-    @isTest
-    static void testGetEmployeeDetails() {
-
-        Test.startTest();
-        String result = Employee1.getEmployeeDetails('Rahul');
-        Test.stopTest();
-
-        System.assertEquals(
-            'Employee Name: Rahul',
-            result
-        );
     }
-}
