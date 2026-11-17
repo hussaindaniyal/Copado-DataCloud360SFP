@@ -7,9 +7,4 @@ public class Employee1 {
         }
         return 'Employee created successfully: ' + empName;
     }
-
-    // Method 2: Get Employee Details
-    public static String getEmployeeDetails(String empName) {
-        return 'Employee Name: ' + empName;
     }
-}
