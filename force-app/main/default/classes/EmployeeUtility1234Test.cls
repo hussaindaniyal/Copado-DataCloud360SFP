@@ -14,6 +14,14 @@ public class EmployeeUtility1234Test {
             EmployeeUtility1234.calculateTax(50000)
         );
 
-        
+        System.assertEquals(
+            2000,
+            EmployeeUtility1234.calculateAllowance(0)
+        );
+
+        System.assertEquals(
+            -1000,
+            EmployeeUtility1234.calculateTax(0)
+        );
     }
 }
