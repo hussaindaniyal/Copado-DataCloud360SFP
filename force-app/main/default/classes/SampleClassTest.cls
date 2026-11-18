@@ -18,4 +18,12 @@ public class SampleClassTest {
 
         System.assertEquals(10, result, 'Subtraction result should be 10');
     }
+    @isTest
+    static void testDivideNumbers() {
+        SampleClass obj = new SampleClass();
+
+        Integer result = obj.divideNumbers(20, 10);
+
+        System.assertEquals(2, result, 'Division result should be 2');
+    }
 }
